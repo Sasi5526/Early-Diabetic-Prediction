@@ -12,7 +12,7 @@ import numpy as np
 import seaborn as sb
 import plotly.express as px
 
-dataset = pd.read_csv("D:\\sasi\\study\\Cheat sheet\\Diabetes-Prediction-Deployment-master\\Diabetes-Prediction-Deployment-master\\Early_diabetes_predictor.csv")
+dataset = pd.read_csv("'''''''\\Early_diabetes_predictor.csv")
 
 dataset.head()
 dataset.info()
