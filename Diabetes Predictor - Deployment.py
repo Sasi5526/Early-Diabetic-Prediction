@@ -4,7 +4,7 @@ import pandas as pd
 import pickle
 
 # Loading the dataset
-df = pd.read_csv('D:\\sasi\\study\\Cheat sheet\\Diabetes-Prediction-Deployment-master\\Diabetes-Prediction-Deployment-master\\Early_diabetes_predictor.csv')
+df = pd.read_csv(''''\Early_diabetes_predictor.csv')
 
 # Renaming DiabetesPedigreeFunction as DPF
 df = df.rename(columns={'DiabetesPedigreeFunction':'DPF'})
